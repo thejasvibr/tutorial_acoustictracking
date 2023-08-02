@@ -1,17 +1,16 @@
 # Acoustic tracking demos
 
-## Preferably create a separate conda/virtual environment 
-The code was written with Python 3.11 version using a conda environment. 
+## Preferably start by creating a new separate conda/virtual environment 
+Open up your command line tool (Command Prompt/Terminal) - here we'll call the environment `acousticdemo`.
 ```>>> conda create -n acousticdemo python==3.11``` 
 
 And then activate the environment with 
 ```>>> conda activate acousticdemo``` 
 
 ## Installation 
-Clone this repo with ```git clone https://github.com/thejasvibr/realtime_sound_plotting.git``` and then ```cd``` into the 
+Clone/download this repo with ```git clone https://github.com/thejasvibr/realtime_sound_plotting.git``` and then ```cd``` into the 
 repo and preferably create a new virtual/conda environment to run the visualisation in. Then install the package with 
 ```pip install -r .\requirements.txt```.
-
 
 
 ### Graphical time-delay visualisation on laptop
@@ -38,3 +37,7 @@ This module relies on the microphone providing *raw* audio data for calculations
 audio to remove echoes/noise/buzzing etc. The pre-processing can interfere with time-delay and threshold calculations. 
 For Windows this can be checked by going to ```Control Panel -> Hardware and Sound -> Sound```. In ```Sound``` move to the ```Recording``` tab, and 
 then to ```Properties --> Advanced``` and uncheck ```Enable audio enhancements```.
+
+## License
+All code and images in this repository are released under an MIT License. The multichannel audio 'ACTxx_2019-05-18_22-29-50_0000824.WAV' was collected by
+Lena de Framond - who needs to be contacted in case of any use outside of the scope of this tutorial. 

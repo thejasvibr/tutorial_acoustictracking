@@ -58,7 +58,7 @@ S.start()
 
 audio_queue = queue.Queue()
 source_solutions = queue.Queue()
-threshold = 1e-2
+threshold = 0.75e-2
 
 vsound = 340.0 # m/s
 highpass_coeffs = signal.butter(1, 15000/(fs*0.5), 'low')

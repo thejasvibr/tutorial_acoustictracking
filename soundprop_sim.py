@@ -151,6 +151,9 @@ roomsim.compute_rir()
 # run  simulation 
 roomsim.simulate() 
 
+# save file 
+sf.write('roomsim_trista60cm.wav', roomsim.mic_array.signals.T, samplerate=fs)
+
 #%%
 # Visualise the same sources but with reverberation included
 
