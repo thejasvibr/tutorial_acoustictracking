@@ -8,7 +8,7 @@ And then activate the environment with
 ```>>> conda activate acousticdemo``` 
 
 ## Installation 
-Clone/download this repo with ```git clone https://github.com/thejasvibr/realtime_sound_plotting.git``` and then ```cd``` into the 
+Clone/download this repo with ```git clone https://github.com/thejasvibr/tutorial_acoustictracking.git``` and then ```cd``` into the 
 repo and preferably create a new virtual/conda environment to run the visualisation in. Then install the package with 
 ```pip install -r .\requirements.txt```.
 
